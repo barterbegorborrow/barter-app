@@ -1,4 +1,5 @@
-export default function Home() {
+import { supabase } from '../lib/supabaseClient'
+ default function Home() {
   return (
     <div style={{ padding: '2rem', fontFamily: 'Arial' }}>
       <h1>Welcome to BarterBegOrBorrow</h1>
